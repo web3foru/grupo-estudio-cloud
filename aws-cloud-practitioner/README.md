@@ -1,6 +1,6 @@
 # Guía para estudiar para la certificación CLF-C02
 
-**Nota: ** La información contenida acá y los links que se ponen son de uso educativo en el grupo de estudio cloud de la Universidad de Antioquia, los materiales son extraídos directamente de la página de AWS y otros de la web.
+**Nota:** La información contenida acá y los links que se ponen son de uso educativo en el grupo de estudio cloud de la Universidad de Antioquia, los materiales son extraídos directamente de la página de AWS y otros de la web.
 
 *(Desde la comunidad Web3ForU esperamos que no haya ningún inconveniente con usar y compartir esta información abiertamente)*
 
