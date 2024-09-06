@@ -54,15 +54,26 @@ Esta charla busca tener una conexión entre conceptos técnicos, cultura, valore
 
 - Conclusión y frase motivadora:
 > Comenzar.
+
 > Empezar ahora.
+
 > Empieza donde estás.
+
 > Empieza con lo que tienes.
+
 > Comience con todas sus inseguridades.
+
 > Comience con lo que ya sabe.
+
 > Empiece a avanzar hacia la meta.
+
 > Empiece y cometa errores.
+
 > Empieza pequeño.
+
 > Empezar ahora.
+
 > Solo empieza.
-> - Sean Cannell
+
+Sean Cannell.
 
