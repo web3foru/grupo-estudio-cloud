@@ -19,7 +19,7 @@ Repositorio donde se encuentra información de las diferentes actividades, clase
 
 [Santiago Bedoya Díaz](https://www.linkedin.com/in/santiago-bedoya-diaz-42a23024a/ "Santiago Bedoya Díaz")
 
-Somos estudiantes activos y egresados de la Universidad de Antioquia **apasionados por la tecnología**, en especial en temas de **cloud, devops, kubernetes, docker**, entre muchas otras herramientas en el mundo cloud. Así mismo,  creemos en el gran **potencial** que tiene una **comunidad**, para compartir conocimientos, cometer errores y aprender de ellos, arriesgarnos a dar charlas, y **potenciarnos entre todos juntos**. También buscamos generar conciencia de cómo con la **disciplina** y la **constancia**, con **inteligencia emocional** y **salud mental**, podemos destacar en la industria, y podemos **alcanzar todos nuestros objetivos y sueños**.
+Somos estudiantes activos y egresados de la Universidad de Antioquia **apasionados por la tecnología**, en especial en temas de **cloud, devops, kubernetes, docker**, entre muchas otras herramientas en el mundo cloud. Así mismo,  creemos en el gran **potencial** que tiene una **comunidad**, para compartir conocimientos, cometer errores y aprender de ellos, arriesgarnos a dar charlas, y **potenciarnos entre todos juntos**. También buscamos generar conciencia de cómo con la **disciplina**, **constancia**, **inteligencia emocional** y **salud mental**, podemos destacar en la industria, y logramos **alcanzar todos nuestros objetivos y sueños**.
 
 "La educación no cambia al mundo: cambia a las personas que van a cambiar el mundo." (Paulo Freire)
 # Contenido
