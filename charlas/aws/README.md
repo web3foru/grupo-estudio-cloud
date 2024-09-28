@@ -2,7 +2,7 @@
 
 ## Contenido:
 - Sesión 1: Introducción a la nube de AWS
-
+- Sesión 2: Introducción a EC2 & S3
 
 ### Sesión 1: Introducción a la nube de AWS
 - Objetivos:
@@ -72,3 +72,53 @@
 		- Platform Perspective: le ayuda a crear una plataforma de nivel empresarial.
 		- Security Perspective: le ayuda a lograr la confidencialidad, integridad y disponibilidad de sus datos y cargas de trabajo en la nube.
 		- Operations Perspective: ayuda a garantizar que sus servicios en la nube sean entregados a un nivel que satisfaga las necesidades de su negocio.
+
+### Sesión 2: Introducción a EC2 & S3
+- Objetivos:
+	- Fundamentos de EC2, cuáles son sus tipos de instancias, precios, autoescalado y el balanceador de cargas.
+	- Fundamentos de S3, cuáles son sus beneficios, principios y buenas prácticas.
+	- Aprender de manera téorica y práctica con  los laboratorios de EC2 & S3 en Cloud Quest.
+
+- Conceptos básicos:
+	- Servicios de cómputo:
+		- Instancias:
+		[Amazon EC2](https://aws.amazon.com/es/ec2/ "Amazon EC2")
+		- Contenedores:
+		[Amazon ECS](https://aws.amazon.com/es/ecs/ "Amazon ECS"): es un sistema manejador de contenedores que te permite correr y escalar aplicaciones containerizadas en AWS.
+ 		[Amazon EKS](https://aws.amazon.com/es/eks/ "Amazon EKS"): es un servicio usado para correr Kubernetes en AWS.
+ 		[AWS Fargate](https://aws.amazon.com/es/fargate/ "AWS Fargate"): es un motor de computo para contenedores, y puede funcionar con ECS y EKS.
+		- Sin servidor:
+		[AWS Lambda](https://aws.amazon.com/es/lambda/ "AWS Lambda"): es un servicio que te permite correr código sin necesidad de provisionar o manejar servidores.
+
+	- Tipos de instancias EC2:
+		- **General purpose**: recursos balanceados (CPU, Storage, RAM) para diversas cargas de trabajo.
+		- **Compute optimized**: tareas de computo intensivo.
+		- **Memory optimized**: tareas de memoria intensiva.
+		- **Accelerated computing**
+		- **Storage optimized**: alto desempeño en almacenamiento
+
+	- Precios de instancias EC2:
+		- On demand
+		- Saving plans
+		- Reserved instances
+		- Spot instances
+		- Dedicated hosts
+
+	- Servicios de almacenamiento:
+		- Objeto:
+		[Amazon S3](https://aws.amazon.com/es/s3/ "Amazon S3")
+		- Bloques:
+		[Amazon EBS](https://aws.amazon.com/es/ebs/ "Amazon EBS"): servicio de almacenamiento en bloques que puedes usar con instancias EC2
+		- Sistemas de archivos:
+		[AWS EFS](https://aws.amazon.com/es/efs/ "AWS EFS")
+		[AWS FSx](https://aws.amazon.com/es/efs/ "AWS FSx")
+
+	- Clases de almacenamiento S3:
+		- S3 Standard: diseñado para acceso frecuente a los datos. (At least 3 AZ)
+ 		- S3 Standard-Infrequent Access(S3 Standard-IA): para datos que no accedes con mucha frecuencia, y que necesitas acceso rapido cuando lo necesites.
+		- S3 One zone-Infrequent Access(S3 One Zone-IA): almacena datos en una sola AZ.
+		- S3 Intelligent-Tiering: ideal para datos con desconocidos o cambiantes patrones de acceso.
+		- S3 Glacier: se usa para archivar datos:
+			- S3 Glacier Instant Retrieval: acceso en milisegundos.
+			- S3 Glacier Flexible Retrieval: acceso en pocos minutos a horas.
+			- S3 Glacier Deep Archive: acceso dentro de 12 horas.
