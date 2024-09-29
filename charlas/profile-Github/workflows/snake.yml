@@ -1,0 +1,42 @@
+name: generate animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *" 
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      # Checkout the repository to avoid overwriting the whole branch
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Generates the snake game SVG files
+      - name: Generate GitHub contribution grid snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # Commit and push only the generated SVGs, preserving the rest of the content
+      - name: Commit and push SVGs
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions"
+          git add dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg
+          git commit -m "Update contribution snake SVG"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+
