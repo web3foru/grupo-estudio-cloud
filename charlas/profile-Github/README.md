@@ -2,6 +2,16 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/superpollo2/workshp-github)
 [![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/superpollo2/workshp-github)
 
+-------
+Follow me 🚀
+
+[![Follow me in github !](https://img.shields.io/badge/superpollo2-github%20profile-1abc9c.svg)](https://github.com/superpollo2)
+[![Follow me linkedin !](https://img.shields.io/badge/laura%20tascon-linkedin%20profile-1a9bbc.svg)](https://www.linkedin.com/in/laura-tascon/)
+
+link repositorio original
+
+[![link repo origina !](https://img.shields.io/badge/workshop%20github-repositorio-d05eb9.svg)](https://github.com/superpollo2/workshp-github)
+
 # 🌟 workshop-github 🌟
 ¿Sabías que tu perfil de GitHub puede ser mucho más que una simple lista de repositorios? es tu portafolio profesional, en este workshop, aprenderás a transformar tu perfil de GitHub en una verdadera carta de presentación. Te mostraremos cómo personalizar tu perfil para visualizar tus habilidades, proyectos y logros.
 
