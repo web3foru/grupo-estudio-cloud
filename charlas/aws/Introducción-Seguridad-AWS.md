@@ -86,7 +86,7 @@ Mejores prácticas para configurar una VPC:
 ![protect-your-workloads](./images/protect-your-workloads.png)
 
 ### Detección de amenzas:
-![detección-amenazas](./images/detección-amenazas.png)
+![deteccion-amenazas](./images/deteccion-amenazas.png)
 
 ### Cumplimiento y auditoría:
 ![auditoría](./images/auditoria.png)
